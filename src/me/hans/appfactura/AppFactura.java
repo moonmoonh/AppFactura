@@ -11,7 +11,7 @@ public class AppFactura {
 
         Cliente cliente = new Cliente();
         cliente.setNombre("Jon Doe");
-        cliente.setNif("5555-555-55");
+        cliente.setNif("555-555-55");
 
         System.out.print("Ingrese una descripción de la factura: ");
         Factura factura = new Factura(cliente, sc.nextLine());
