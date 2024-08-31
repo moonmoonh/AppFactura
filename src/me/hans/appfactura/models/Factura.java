@@ -59,7 +59,7 @@ public class Factura {
             if (item == null) {
                 continue;
             }
-            total += item.calcularImporte();
+            total = total + item.calcularImporte();
         }
         return total;
     }
